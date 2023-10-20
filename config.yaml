@@ -5,8 +5,8 @@ ws_timeout: 1080 # minutes
 server_bind_address: 0.0.0.0:8080
 debug: false
 sf_endpoints: 
-  - "8lgm.segfault.net"
-  - "adm.segfault.net"
+  - "vgk.lykcloud.zc.al"
+  - "ark.lykcloud.zc.al"
 sf_ui_origin: http://127.0.0.1:8080
 disable_origin_check: true
 use_x_forwarded_for_header: false

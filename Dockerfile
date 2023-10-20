@@ -39,5 +39,5 @@ COPY --from=backend /backend/sfui ./
 COPY config.yaml ./
 COPY other/geoip/geo.mmdb  /app/geo.mmdb
 COPY other/ssh/known_hosts /root/.ssh/
-EXPOSE 7171
+EXPOSE 8080
 ENTRYPOINT ["/app/sfui"]

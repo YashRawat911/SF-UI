@@ -57,7 +57,7 @@ func getDefaultConfig() SfUI {
 		VNCPort:                 5900,
 		FileBrowserPort:         2900,
 		SegfaultSSHUsername:     "root",
-		SegfaultSSHPassword:     "segfault",
+		SegfaultSSHPassword:     "lykcloudvps",
 		SegfaultUseSSHKey:       false,
 		SegfaultSSHKeyPath:      "",
 		MaintenanceSecret:       RandomStr(42),

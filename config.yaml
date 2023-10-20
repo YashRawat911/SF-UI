@@ -5,10 +5,6 @@ ws_timeout: 1080 # minutes
 server_bind_address: 0.0.0.0:8080
 debug: false
 sf_endpoints: 
-  - "beta.segfault.net"
-  - "teso.segfault.net"
-  - "segfault.net"
-  - "ru.segfault.net"
   - "8lgm.segfault.net"
   - "adm.segfault.net"
 sf_ui_origin: http://127.0.0.1:8080

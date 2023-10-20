@@ -34,7 +34,7 @@ func getDefaultConfig() SfUI {
 	return SfUI{
 		MaxWsTerminals:           10,
 		MaxSharedDesktopConn:     4,
-		ServerBindAddress:        "127.0.0.1:7171",
+		ServerBindAddress:        "127.0.0.1:8080",
 		Debug:                    false,
 		MasterSSHCommand:         "sshpass -p segfault ssh -M -S %s/ssh.sock -L %s/gui.sock:127.0.0.1:5900 -o \"SetEnv SECRET=%s REMOTE_ADDR=%s\" root@%s -t sh",
 		TearDownMasterSSHCommand: "sshpass -p segfault ssh -S %s/ssh.sock -O exit root@%s",
@@ -42,7 +42,7 @@ func getDefaultConfig() SfUI {
 		SfEndpoints: []string{
 			"8lgm.segfault.net",
 			"adm.segfault.net"},
-		SfUIOrigin:              "http://127.0.0.1:7171",
+		SfUIOrigin:              "http://127.0.0.1:8080",
 		DisableOriginCheck:      true,
 		UseXForwardedForHeader:  false,
 		DisableDesktop:          false,

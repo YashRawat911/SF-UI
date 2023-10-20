@@ -2,8 +2,8 @@
     <div class="main-section">
         <div class="flex-col login-container">
             <div class="menu-brand flex-col">
-                <h6 title="Segfault">SF</h6>
-                <span id="brandInfo">by hackerschoice</span>
+                <h6 title="Segfault">LykCloud</h6>
+                <span id="brandInfo">By LegendYt4k</span>
             </div>
 
             <div *ngIf="LoginWithSecret && !loadingDashBoard" class="input-secret">
@@ -34,7 +34,7 @@
 
             <div *ngIf="!loadingDashBoard" class="login-info">
                 <span *ngIf="LoginWithSecret">
-                    Enter your Segfault secret<br>to start using...
+                    Enter your LykCloud-Vps secret<br>to start using...
                 </span>
                 <div *ngIf="LoginWithSecret" class="go-back" (click)="toggleLoginWithSecret()">
                     <span><u><- Go Back</u></span>
